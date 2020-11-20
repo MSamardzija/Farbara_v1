@@ -4,7 +4,7 @@
     $phone = $_POST['txtPhone'];
     $message = $_POST['txtMsg'];
 
-    $email_form = 'Eas@gmail.com';
+    $email_form = 'example@gmail.com';
 
     $email_subject = 'Poruka sa Web Sajta';
     

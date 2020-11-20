@@ -152,7 +152,7 @@ h3.title {
   width: 85%;
 }
 
-.contact-form form{
+.contact-form form {
   display: none;
 }
 
@@ -161,7 +161,7 @@ h3.title {
 }
 
 .contact-form form {
-  padding: 0% 10% 3% 10%  ;
+  padding: 0% 10% 3% 10%;
 }
 
 .contact-form h3 {
@@ -410,44 +410,44 @@ h3.title {
   line-height: 1em;
 }
 
-.fa-parking,
-.fa-cc-visa,
-.fa-handshake,
-.fa-search,
-.fa-award,
-.fa-info,
-.fa-shipping-fast {
+#pogodnosti .fa-parking,
+#pogodnosti .fa-cc-visa,
+#pogodnosti .fa-handshake,
+#pogodnosti .fa-search,
+#pogodnosti .fa-award,
+#pogodnosti .fa-info,
+#pogodnosti .fa-shipping-fast {
   text-shadow: 5px -5px 8px #ccc;
   font-size: 8em;
   padding: 20px 10px 0px 10px;
   margin: 0;
 }
 
-.fa-parking {
+#pogodnosti .fa-parking {
   color: #0271bb;
 }
 
-.fa-cc-visa {
+#pogodnosti .fa-cc-visa {
   color: #0066b1;
 }
 
-.fa-search {
+#pogodnosti .fa-search {
   color: #0066b1;
 }
 
-.fa-info {
+#pogodnosti .fa-info {
   color: #0062cc;
 }
 
-.fa-award {
+#pogodnosti .fa-award {
   color: #0062cc;
 }
 
-.fa-shipping-fast {
+#pogodnosti .fa-shipping-fast {
   color: #0066b1;
 }
 
-.fa-handshake {
+#pogodnosti .fa-handshake {
   color: #0066b1;
 }
 
@@ -480,21 +480,20 @@ h3.title {
   */
 
 #BojeILakoviMain {
-  background-image: url(/Imgs/www.jpg);
-  /* height: 700px; */
+  background-image: url(/Imgs/PozadinaPonuda.jpg);
   width: 100%;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
   #BojeILakoviMain img {
     display: none;
   }
 }
 
 #BojeILakoviMain img {
-  height: 70%;
-  width: 90%;
-  margin-top: 50px;
+  height: 500px;
+  width: 95%;
+  margin-top: 100px;
 }
 
 .MainHeadning {
@@ -533,5 +532,168 @@ h3.title {
   font-weight: 900;
   font-size: 2rem;
   margin-bottom: 3rem;
-  margin-top: -4%;
+  margin-top: -2%;
 }
+
+/* 
+ */
+/* TONIRNAJE*/
+/* 
+ */
+#ToniranjeMain {
+  background-image: url(/Imgs/PozadinaPonuda.jpg);
+  /* height: 700px; */
+  width: 100%;
+}
+
+#ToniranjeMain img {
+  height: 450px;
+  width: 95%;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+@media screen and (max-width: 1000px) {
+  #ToniranjeMain img {
+    display: none;
+  }
+}
+
+#ToniranjeMain a {
+  margin: 30px auto;
+  display: block;
+  width: 50%;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+#TonIkone {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#TonIkone i {
+  font-size: 6rem;
+  text-align: center !important;
+  padding: 30px 30px 20px 30px;
+  color: rgb(11, 156, 192);
+}
+
+#TonIkone p {
+  padding-bottom: 30px;
+  font-size: 1.4rem;
+}
+
+
+/* 
+ */
+/* ELEKTRO MATERIJAL */
+/* 
+  */
+#ElektroMaterijal {
+  background-image: url(/Imgs/ElBackground.jpg);
+  /* background-color: #cccccc; */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+#ElektroMaterijal h1 {
+  text-align: center;
+  font-size: 6rem;
+  letter-spacing: 0.9rem;
+  font-weight: 700;
+  margin: 60px 0px 100px 0px;
+}
+
+#ElektroMaterijal hr {
+  width: 70%;
+  margin: 20px auto;
+  background: white;
+}
+
+#ElektroMaterijal .container p {
+  font-size: 1.3rem;
+  line-height: 2.5rem;
+  text-align: center;
+  padding: 0px 30px;
+}
+
+/* Navodjenje ova 3 segmenta */
+#ElektOpis {
+  width: 85%;
+  text-align: center;
+  margin: 5% auto 0px auto;
+}
+
+#ElektOpis .row h2 {
+  font-weight: 700;
+  margin-bottom: 10px;
+  text-decoration: underline;
+}
+
+#ElektOpis .row p {
+  padding: 0px 30px 60px 30px;
+}
+
+/* 
+ */
+/* Srafovi */
+/* 
+  */
+
+
+#Srafovi {
+  background-image: url(/Imgs/Proba.jpg);
+  background-color: #cccccc;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+  color: white;
+}
+
+#Srafovi h1 {
+  text-align: center;
+  font-size: 6rem;
+  letter-spacing: 0.9rem;
+  font-weight: 700;
+  margin: 60px 0px 100px 0px;
+}
+
+#Srafovi hr {
+  width: 70%;
+  margin: 20px auto;
+  background: white;
+}
+
+#Srafovi .container p {
+  font-size: 1.3rem;
+  line-height: 2.5rem;
+  text-align: center;
+  padding: 0px 30px;
+}
+
+/* Navodjenje ova 3 segmenta */
+#SrafOpis {
+  width: 85%;
+  text-align: center;
+  margin: 5% auto 0px auto;
+}
+
+#SrafOpis .row h2 {
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+#SrafOpis .row p {
+  padding: 0px 30px 60px 30px;
+}
+
+
+/* 
+*/
+/* Fasada */
+/* 
+*/
