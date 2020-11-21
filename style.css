@@ -697,3 +697,47 @@ h3.title {
 /* Fasada */
 /* 
 */
+
+#FasadeHeader h1,
+#FasadeHeader h3 {
+  margin: 30px 0px 10px 0px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 800;
+  /* color: #DAA520; */
+}
+
+.FasadaIcons {
+  margin: 4% auto 3% auto;
+}
+
+.FasadaIcons h4 {
+  text-align: center;
+  padding: 10px;
+  font-weight: 600;
+  color: #DAA520;
+  text-transform: uppercase;
+}
+
+.FasadaIcons i {
+  font-size: 7rem;
+}
+
+.FasadaIcons .fa-award,
+.fa-percent,
+.fa-truck {
+  color: #DAA520;
+}
+
+/* Prvi deo */
+.fasadaOpis {
+  margin: 50px auto;
+}
+
+.fasadaOpis img {
+  width: 400px;
+  height: 400px;
+}
+
+.fasadaOpis h2 {
+  font-weight: 800;
+}
