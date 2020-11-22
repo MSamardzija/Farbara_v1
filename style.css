@@ -23,7 +23,7 @@ body {
 }
 
 /* Arsotiman header */
-#titleArsotiman{
+#titleArsotiman {
   color: #fff;
   font-weight: 400;
   margin: 2rem auto;
@@ -63,7 +63,7 @@ body {
 
 /* Kontakt  */
 #ContactBackground {
-  border-top: 2px solid white;
+  border-top: 2px solid #fff;
   width: 95%;
   margin-top: .3rem;
   margin-bottom: 1rem;
@@ -75,7 +75,7 @@ body {
   margin: auto;
   width: 88px;
   height: 88px;
-  border: 8px solid white;
+  border: 8px solid #fff;
   line-height: 88px;
   border-radius: 50%;
   background: #0f96d9;
@@ -99,13 +99,13 @@ body {
 /* Za a elemente bez linije i beli */
 .LinkUnderline {
   text-decoration: none !important;
-  color: white !important;
+  color: #fff !important;
 }
 
 .icon>.info {
   margin-top: -24px;
   background: rgba(0, 0, 0, 0.04);
-  border: 3px solid white;
+  border: 3px solid #fff;
   padding: 15px 0 10px 0;
   min-height: 163px;
   border-radius: 5rem !important;
@@ -113,16 +113,16 @@ body {
 
 h3.title {
   font-family: "Robot", sans-serif !important;
-  font-size: 1.7rem;
-  color: white;
+  font-size: 2rem;
+  color: #fff;
   font-weight: 900;
   margin-top: 1rem;
 }
 
 .icon>.info>p {
   font-family: "Robot", sans-serif !important;
-  font-size: 1rem;
-  color: white;
+  font-size: 1.3rem;
+  color: #fff;
   line-height: 1.5em;
   margin: 20px;
   font-weight: 700;
@@ -131,10 +131,20 @@ h3.title {
 /* Slika background za kontakt */
 .ContactBackground {
   background-image: url(/Imgs/KontaktBG.jpg);
-  background-color: #cccccc;
+  background-color: #fff;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.ContactBackground h1 {
+  text-align: center;
+  margin: 30px 30px 30px 30px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 3.6rem;
+  letter-spacing: 0.3rem;
+  text-decoration: underline;
 }
 
 /* Slika farbare kontakt */
@@ -164,7 +174,16 @@ h3.title {
 /* Kontakt FORM */
 
 .contact-form {
-  width: 85%;
+  width: 80%;
+}
+
+@media screen and (max-width: 1000px) {
+  .contact-form {
+    width: 100%;
+  }
+  .contact-form i {
+    display: none;
+  }
 }
 
 .contact-form form {
@@ -381,8 +400,16 @@ h3.title {
   /* line-height: 1.3em; */
 }
 
+#AboutUsFirst h1 {
+  text-align: center;
+  color: #28a745;
+  font-weight: 700;
+}
+
 .counterCol {
   padding: 20px 10px 20px 10px;
+  text-align: center;
+  color: #28a745;
 }
 
 /* Paint Guy da nestane */
@@ -399,6 +426,11 @@ h3.title {
   margin-bottom: 0;
   letter-spacing: 0.2em;
   border-radius: 0;
+}
+@media screen and (max-width: 992px) {
+  #OnamaJumbo i {
+    display: none;
+  }
 }
 
 /* O NAMA END */
@@ -471,7 +503,7 @@ h3.title {
 /* Kontakt jumbotron */
 #KontaktJumbo {
   background-color: #4391b7;
-  color: white;
+  color: #fff;
 }
 
 /* END  */
@@ -611,7 +643,7 @@ h3.title {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  color: white;
+  color: #fff;
 }
 
 #ElektroMaterijal h1 {
@@ -625,7 +657,7 @@ h3.title {
 #ElektroMaterijal hr {
   width: 70%;
   margin: 20px auto;
-  background: white;
+  background: #fff;
 }
 
 #ElektroMaterijal .container p {
@@ -666,7 +698,7 @@ h3.title {
   background-repeat: no-repeat;
   background-size: cover;
   height: auto;
-  color: white;
+  color: #fff;
 }
 
 #Srafovi h1 {
@@ -680,7 +712,7 @@ h3.title {
 #Srafovi hr {
   width: 70%;
   margin: 20px auto;
-  background: white;
+  background: #fff;
 }
 
 #Srafovi .container p {
@@ -757,21 +789,21 @@ h3.title {
   font-weight: 800;
 }
 
-#vodovodSlike{
+#vodovodSlike {
   text-align: center;
 }
 
-#vodovodSlike h2{
+#vodovodSlike h2 {
   font-weight: 600;
   margin: 20px auto;
   color: #f0ad4e;
 }
 
-#vodovodSlike img{
+#vodovodSlike img {
   height: 400px;
   width: 90%;
 }
 
-#vodovodSlike p{
+#vodovodSlike p {
   padding: 20px 50px;
 }
