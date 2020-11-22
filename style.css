@@ -22,6 +22,17 @@ body {
   margin-bottom: 7rem;
 }
 
+/* Arsotiman header */
+#titleArsotiman{
+  color: #fff;
+  font-weight: 400;
+  margin: 2rem auto;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 3rem;
+  letter-spacing: 0.5rem;
+}
+
 /* Kartice*/
 .card-shadow {
   box-shadow: 5px 8px 20px #444;
@@ -36,8 +47,12 @@ body {
   background: #222;
   width: 70%;
   cursor: pointer;
-  opacity: .7;
+  opacity: .75;
   transition: all .5s;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding: 0.5rem;
 }
 
 .heading:hover {
@@ -740,4 +755,23 @@ h3.title {
 
 .fasadaOpis h2 {
   font-weight: 800;
+}
+
+#vodovodSlike{
+  text-align: center;
+}
+
+#vodovodSlike h2{
+  font-weight: 600;
+  margin: 20px auto;
+  color: #f0ad4e;
+}
+
+#vodovodSlike img{
+  height: 400px;
+  width: 90%;
+}
+
+#vodovodSlike p{
+  padding: 20px 50px;
 }
