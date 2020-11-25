@@ -36,6 +36,7 @@ body {
 /* Kartice*/
 .card-shadow {
   box-shadow: 5px 8px 20px #444;
+  /* cursor: pointer; */
 }
 
 .heading {
@@ -395,10 +396,8 @@ h3.title {
 
 /* O NAMA */
 #AboutUsFirst p {
-  padding: 20px 10px 20px 10px;
-  font-size: 1.1em;
+  padding: 30px 30px 30px 30px;
   text-align: justify;
-  /* line-height: 1.3em; */
 }
 
 #AboutUsFirst h1 {
@@ -697,7 +696,7 @@ h3.title {
 
 #ElektOpis .row p {
   padding: 0px 30px 25% 30px;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
 }
 
 /* 
@@ -706,53 +705,60 @@ h3.title {
 /* 
   */
 
-
 #Srafovi {
-  background-image: url(/Imgs/Proba.jpg);
-  background-color: #cccccc;
-  background-position: center;
+  background-image: url(/Imgs/SrafovskaRobaBG.jpg);
+  background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
-  height: auto;
-  color: #fff;
+  width: 100%;
 }
 
 #Srafovi h1 {
-  text-align: center;
-  font-size: 6rem;
+  text-align: left;
+  font-size: 5rem;
   letter-spacing: 0.9rem;
-  font-weight: 700;
-  margin: 60px 0px 100px 0px;
+  font-weight: 800;
+  margin: 2% auto 5% 1%;
+  color: #e1682f;
 }
 
 #Srafovi hr {
-  width: 70%;
-  margin: 20px auto;
-  background: #fff;
+  width: 90%;
+  margin: 2.3% auto;
+  background: rgb(180, 12, 12);
 }
 
-#Srafovi .container p {
-  font-size: 1.3rem;
-  line-height: 2.5rem;
+#SrafRobaOpis {
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 2rem;
   text-align: center;
-  padding: 0px 30px;
+  padding: 0px 50px;
+  color: #000;
 }
 
-/* Navodjenje ova 3 segmenta */
-#SrafOpis {
-  width: 85%;
+#Srafovi img {
+  height: 250px;
+  width: 100%;
+}
+
+.card-deck {
+  margin: 5% auto 5% auto;
+}
+
+.card {
+  background: #ff7c3f;
+  color: #000;
+}
+
+.card-title {
+  font-weight: 600;
   text-align: center;
-  margin: 5% auto 0px auto;
+  font-size: 1.5rem;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
 }
 
-#SrafOpis .row h2 {
-  font-weight: 700;
-  margin-bottom: 10px;
-}
-
-#SrafOpis .row p {
-  padding: 0px 30px 60px 30px;
-}
 
 
 /* 
@@ -803,6 +809,7 @@ h3.title {
 
 .fasadaOpis h2 {
   font-weight: 800;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 /* 
@@ -813,18 +820,25 @@ h3.title {
 
 #VodovodTitle {
   text-align: center;
+  background: #043b6a;
+  margin-bottom: 0px;
 }
 
-#VodovodTitle h1{
-  font-size: 4rem;
+#vodovodSlike {
+  background: #043b6a;
+}
+
+#VodovodTitle h1 {
+  font-size: 3.7rem;
   letter-spacing: 0.3rem;
   font-weight: 700;
   color: #f0ad4e;
+  text-decoration: underline;
 }
 
-#VodovodTitle p{
-  color: #6c757d;
-  font-size: 1.5rem ;
+#VodovodTitle p {
+  color: #fff;
+  font-size: 1.5rem;
 }
 
 #vodovodSlike {
@@ -835,6 +849,7 @@ h3.title {
   font-weight: 600;
   margin: 20px auto;
   color: #f0ad4e;
+  text-decoration: underline;
 }
 
 #vodovodSlike img {
@@ -843,5 +858,7 @@ h3.title {
 }
 
 #vodovodSlike p {
-  padding: 20px 50px;
+  padding: 20px 40px;
+  color: #fff;
+  font-weight: 600;
 }
