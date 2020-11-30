@@ -437,7 +437,7 @@ h3.title {
 
 /* O NAMA */
 #AboutUsFirst p {
-  padding: 30px 30px 30px 30px;
+  padding: 4% 7% 5% 7%;
   text-align: justify;
 }
 
@@ -525,6 +525,7 @@ h3.title {
   width: 97%;
   margin: 3%;
 }
+
 /* O NAMA END */
 
 
@@ -542,11 +543,11 @@ h3.title {
   width: 100%;
 }
 
-#BojeTitle {
+#BojeILakoviMain h1 {
   font-size: 5.6rem;
-  letter-spacing: 1rem;
+  letter-spacing: 0.8rem;
   font-weight: 900;
-  padding: 3% 0% 2% 0%;
+  padding: 3% 0% 1% 0%;
   color: #0f96d9;
   text-align: center;
 }
@@ -557,7 +558,8 @@ h3.title {
   font-weight: 600;
   line-height: 1.7rem;
   margin-left: 10%;
-  margin-top: 30px;
+  margin-top: 20px;
+  text-align: justify;
 }
 
 #BojeListaProizvoda {
@@ -590,13 +592,10 @@ h3.title {
  */
 #ToniranjeMain {
   background-image: url(/Imgs/PozadinaPonuda.jpg);
-  /* background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; */
   width: 100%;
 }
 
-#ToniranjeTitle {
+#ToniranjeMain h1 {
   font-size: 5rem;
   letter-spacing: 1rem;
   font-weight: 900;
@@ -605,24 +604,18 @@ h3.title {
   text-align: center;
 }
 
+#tonjiranjeOpis {
+  font-size: 1.25rem;
+  font-weight: 300;
+  padding: 1% 5% 0% 5%;
+  text-align: justify;
+}
 
 #ToniranjeMain img {
   height: 450px;
   width: 95%;
   margin-top: 100px;
   margin-bottom: 100px;
-}
-
-@media screen and (max-width: 992px) {
-  #ToniranjeMain img {
-    display: none;
-  }
-
-  #ToniranjeTitle {
-    font-size: 3.5rem;
-    letter-spacing: 0.8rem;
-    margin-top: 30px;
-  }
 }
 
 #ToniranjeMain a {
@@ -667,7 +660,7 @@ h3.title {
 #ElektroMaterijal h1 {
   text-align: center;
   font-size: 5rem;
-  letter-spacing: 0.9rem;
+  letter-spacing: 0.5rem;
   font-weight: 700;
   margin: 3% auto 7% auto;
   text-decoration: underline;
@@ -702,7 +695,7 @@ h3.title {
 }
 
 #ElektOpis .row p {
-  padding: 0px 30px 25% 30px;
+  padding: 0px 30px 10% 30px;
   font-size: 1.4rem;
 }
 
@@ -882,6 +875,7 @@ h3.title {
     height: 89vh;
     width: 100%;
   }
+
   #PaintGuy {
     margin-top: 3rem;
     width: 100%;
@@ -905,11 +899,41 @@ h3.title {
   .contact-form i {
     display: none;
   }
+
   #PaintGuy {
     display: none;
   }
+
+  #ToniranjeMain img {
+    display: none;
+  }
+
+  #ToniranjeMain h1 {
+    font-size: 4.5rem;
+    letter-spacing: normal;
+    margin-top: 30px;
+  }
+  #Srafovi h1{
+    font-size: 4rem;
+    letter-spacing: normal;
+    text-align: center;
+  }
 }
 
-@media screen and (max-width: 768px) {}
+@media screen and (max-width: 768px) {
+  #BojeILakoviMain p {
+    margin: auto;
+  }
 
-@media screen and (max-width: 576px) {}
+  #BojeILakoviMain a:last-child {
+    font-size: 1.7rem;
+    letter-spacing: normal;
+    margin-top: 0%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  #BojeILakoviMain h1 {
+    letter-spacing: normal;
+  }
+}
