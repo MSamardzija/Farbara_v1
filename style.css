@@ -115,6 +115,8 @@ nav ul li a:hover {
   background-image: url(/Imgs/KontaktBG.jpg);
   background-position: center;
   background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
 }
 
 #contactInfo .row {
@@ -899,6 +901,9 @@ h3.title {
   .contact-form i {
     display: none;
   }
+  .contact-form h3{
+    font-size: 4rem;
+  }
 
   #PaintGuy {
     display: none;
@@ -923,6 +928,10 @@ h3.title {
 @media screen and (max-width: 768px) {
   #BojeILakoviMain p {
     margin: auto;
+  }
+  .contact-form h3{
+    font-size: 4rem;
+    letter-spacing: normal;
   }
 
   #BojeILakoviMain a:last-child {
