@@ -19,17 +19,16 @@
 </head>
 
 <body>
-
+    <!-- NavBar START -->
     <header>
-        <!-- NavBar START -->
         <nav class="navbar navbar-expand-md navbar-light sticky-top">
             <a href="index.html">
-                <img src="Imgs/LogoMain.png" alt="Logo farbare s">
+                <img src="Imgs/LogoMain.png" alt="Logo Farbare S">
             </a>
             <button type="button" class="navbar-toggler bg-light" data-toggle="collapse" data-target="#nav">
                 <span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse justify-content-between" id="nav">
-                <ul class="navbar-nav">
+                <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
                         <a class="nav-link" href="index.html">Početna</a>
                     </li>
@@ -53,18 +52,18 @@
                 </ul>
             </div>
         </nav>
-        <!-- NavBar END -->
     </header>
 
-    <section class="pt-5 mb-4">
+    <!-- About us START  -->
+    <section class="py-4 bg-light">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-7" id="AboutUsFirst">
-                    <h1>Nesto više o nama</h1>
+                    <h1 class="text-success font-weight-bold text-center">Nesto više o nama</h1>
                     <hr>
-                    <p class="lead">Farbara S je otvorena 2015. godine sa ciljem da na Kumodražu ponudi širok arsotiman
+                    <p class="lead">Farbara S otvorena je 2015. godine sa ciljem da na Kumodražu ponudi širok arsotiman
                         robe u okviru gradjevinskog materijala na jednom mestu. Do sada smo našu ponudu redovno
-                        proširivali u skladu sa zahtevima kupaca i novitetima koji su se pojavljivali na tržištu sa
+                        proširivali u skladu sa zahtevima kupaca i novitetima koji se pojavljuju na tržištu sa
                         glavnim fokusom na kvalitet proizvoda. Trudimo se da cene našeg prodajnog
                         asortimana budu konkurentne, ali ono što nas izdvaja jeste znanje i pomoć koju pružamo kupcima.
                         Kod nas ćete dobiti savet za pripremu i način upotrebe proizvoda, ali i za rešavanje problema na
@@ -87,7 +86,7 @@
                     </div>
                 </div>
                 <div class="col-lg-5 text-center mt-3">
-                    <img src="/Imgs/PaintGuy.jpg" id="PaintGuy" alt="Farbar">
+                    <img src="Imgs/PaintGuyFS.png" id="PaintGuy" alt="Farbar">
                 </div>
             </div>
         </div>
@@ -102,13 +101,12 @@
             </h1>
         </div>
     </section>
-    <!-- Jumbo END -->
 
     <!-- Pogodnosti -->
     <section id="pogodnosti">
         <div class="container-fluid">
             <h2>Pogodnosti koje nudimo</h2>
-            <div class="row mt-5">
+            <div class="row mt-4">
                 <div class="col-sm-6 col-lg-3">
                     <i class="fas fa-parking"></i>
                     <h3>Parking</h3>
@@ -147,13 +145,14 @@
                 <div class="col-sm-12 col-lg-3">
                     <i class="fas fa-shipping-fast"></i>
                     <h3>Isporuka</h3>
-                    <p>Isporuka je obezbedjena za veću količinu kupoljene robe</p>
+                    <p>Isporuka je obezbedjena za veću količinu kupljene robe</p>
                 </div>
                 <div class="col-lg-1"></div>
             </div>
         </div>
     </section>
 
+    <!-- JUMBO  -->
     <section>
         <div class="jumbotron" id="OnamaJumbo">
             <div class="col-md-12">
@@ -162,14 +161,15 @@
         </div>
     </section>
 
+    <!--  -->
     <section>
         <div class="jumbotron mb-0">
             <div class="container-fluid text-center text-lg-left">
                 <div class="row">
                     <div class="col-lg-4 col-xl-3">
-                        <h1 class="display-4 my-3">Očekujemo vas</h1>
-                        <p class="lead mb-3">Naš objekat se nalazi u Kumodražu na glavnoj ulici Vojvode Stepe 482b.
-                            Posetite nas !</p>
+                        <h1 class="display-5 my-3">Očekujemo vas</h1>
+                        <p class="lead mb-3">Naš objekat se nalazi u Kumodražu na glavnoj ulici Vojvode Stepe 482b.</p>
+                        <a class="btn btn-outline-dark text-uppercase" href="kontakt.html">Radno Vreme</a>
                     </div>
                     <div class="col-lg-8 col-xl-9  align-items-center d-flex" id="Pictures">
                         <div class="row">
@@ -216,7 +216,8 @@
             </p>
             <div class="icons">
                 <a href="#"><i class="fa fa-facebook"></i></a>
-                <a href="#"><i class="fa fa-google-plus"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="https://goo.gl/maps/HUCqXcsHGmHJebof9"><i class="fas fa-map-marked-alt"></i></a>
             </div>
         </div>
         <div class="footer-center col-lg-4 col-md-12">
@@ -234,28 +235,27 @@
             </div>
         </div>
         <div class="footer-right col-lg-4 col-md-12">
-            <img src="/Imgs/LogoSkraceni.png" alt="Logo farbare s">
+            <img src="/Imgs/LogoSkraceni.png" alt="Logo Farbare S">
             <p class="menu">
                 <a href="index.html">Početna</a> |
-                <a href="onama.html"> O nama</a> |
-                <a href="kontakt.html"> Kontakt</a>
+                <a href="onama.html">O nama</a> |
+                <a href="kontakt.html">Kontakt</a>
             </p>
             <p class="name"> &copy; <span id="year"></span> Farbara S</p>
         </div>
     </footer>
     <script type="text/javascript" src="yearCounter.js"></script>
 
-    <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-    </script>
+        </script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
         integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
-    </script>
+        </script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
         integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
-    </script>
+        </script>
     <!-- FancyBox -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
 </body>

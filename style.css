@@ -3,16 +3,8 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
-header nav {
-  background-color: #f8f9fa !important;
-}
-
 header nav a img {
   margin-left: 1.5rem !important;
-}
-
-nav ul {
-  margin-left: auto;
 }
 
 nav ul li a {
@@ -32,22 +24,18 @@ nav ul li a:hover {
 }
 
 .carousel-item {
-  height: 70vh;
+  height: 71vh;
 }
 
 .carousel-item img {
-  height: 70vh;
+  height: 71vh;
   width: 100%;
 }
 
 /* Podesavanje za dugme na ps slideru za kontakt */
 #captionButton {
-  margin-left: 13%;
-  margin-bottom: 7rem;
-}
-
-#brojac {
-  background-color: #f8f9fa !important;
+  margin-left: 12vw;
+  margin-bottom: 12vh;
 }
 
 #brojac h1 {
@@ -71,8 +59,8 @@ nav ul li a:hover {
 
 #arsotiman h1 {
   color: #fff;
-  font-weight: 400;
-  margin: 2rem auto;
+  font-weight: 500;
+  margin: 2rem auto 1.5rem auto;
   text-transform: uppercase;
   text-align: center;
   font-size: 3rem;
@@ -104,13 +92,7 @@ nav ul li a:hover {
   opacity: 1;
 }
 
-/* END OF INDEX */
-
-/* 
-*/
 /* Kontakt */
-/* 
-*/
 .ContactBackground {
   background-image: url(/Imgs/KontaktBG.jpg);
   background-position: center;
@@ -221,7 +203,6 @@ h3.title {
   height: 100%;
   width: 100%;
 }
-
 /* Mapa END */
 
 /* Kontakt FORM */
@@ -229,7 +210,6 @@ h3.title {
 .contact-form {
   width: 80%;
 }
-
 
 .contact-form form {
   display: none;
@@ -437,14 +417,12 @@ h3.title {
 
 /* O NAMA */
 #AboutUsFirst p {
-  padding: 4% 7% 5% 7%;
+  padding: 4% 7% 3% 7%;
   text-align: justify;
 }
 
-#AboutUsFirst h1 {
-  text-align: center;
-  color: #28a745;
-  font-weight: 700;
+#AboutUsFirst hr{
+  width: 80%;
 }
 
 .counterCol {
@@ -514,7 +492,6 @@ h3.title {
   background-color: #4391b7;
   color: #fff;
 }
-
 /* END  */
 
 #Pictures img {
@@ -526,15 +503,7 @@ h3.title {
   margin: 3%;
 }
 
-/* O NAMA END */
-
-
-/* 
- */
 /* Boje i lakovi */
-/* 
-  */
-
 #BojeILakoviMain {
   background-image: url(/Imgs/BojePozdaina.jpg);
   background-position: center;
@@ -585,11 +554,7 @@ h3.title {
   margin-top: -2%;
 }
 
-/* 
- */
 /* TONIRNAJE*/
-/* 
- */
 #ToniranjeMain {
   background-image: url(/Imgs/PozadinaPonuda.jpg);
   width: 100%;
@@ -643,12 +608,7 @@ h3.title {
   font-size: 1.4rem;
 }
 
-
-/* 
- */
 /* ELEKTRO MATERIJAL */
-/* 
-  */
 #ElektroMaterijal {
   background-image: url(/Imgs/ElektroBackground.jpg);
   background-position: center;
@@ -699,12 +659,7 @@ h3.title {
   font-size: 1.4rem;
 }
 
-/* 
- */
 /* Srafovi */
-/* 
-  */
-
 #Srafovi {
   background-image: url(/Imgs/SrafovskaRobaBG.jpg);
   background-position: top;
@@ -759,14 +714,7 @@ h3.title {
   text-transform: uppercase;
 }
 
-
-
-/* 
-*/
 /* Fasada */
-/* 
-*/
-
 #FasadeHeader h1,
 #FasadeHeader h3 {
   margin: 30px 0px 10px 0px;
@@ -797,7 +745,6 @@ h3.title {
   color: #DAA520;
 }
 
-/* Prvi deo */
 .fasadaOpis {
   margin: 50px auto;
 }
@@ -812,12 +759,7 @@ h3.title {
   font-family: 'Courier New', Courier, monospace;
 }
 
-/* 
-*/
 /* VODOVOD I KANALIZACIJA */
-/* 
-*/
-
 #VodovodTitle {
   text-align: center;
   background: #043b6a;
@@ -865,7 +807,6 @@ h3.title {
 
 
 /* MEDIA  */
-
 @media screen and (max-width: 1200px) {
   .carousel-item {
     height: 89vh;

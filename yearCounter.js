@@ -1,3 +1,3 @@
 var date = new Date();
-var annee = date.getFullYear();
-document.getElementById("year").innerHTML = annee;
+var year = date.getFullYear();
+document.getElementById("year").innerHTML = year;
