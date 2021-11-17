@@ -440,6 +440,10 @@ h3.title {
   border-radius: 0;
 }
 
+#OnamaJumbo h2{
+  font-size: 2.5rem;
+}
+
 @media screen and (max-width: 992px) {
   #OnamaJumbo i {
     display: none;
