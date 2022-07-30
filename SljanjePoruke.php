@@ -6,7 +6,7 @@
         $message = $_POST['txtMsg'];
         $link_address = "https://farbaras.rs/kontakt.html";
 
-        $to='farbarass@gmail.com';
+        $to='maresamardzija@gmail.com';
         $email_subject = 'Poruka sa Web Sajta Farbara S';
         $email_body = "Poruku salje: $name.\n".
         "Mail posiljaoca: $visitor_email.\n". 
